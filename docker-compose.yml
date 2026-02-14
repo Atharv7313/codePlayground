@@ -1,0 +1,26 @@
+version: "3"
+services:
+  backend:
+    build: ./server
+    ports:
+      - "5050:5000"
+    depends_on:
+      - compiler
+    environment:
+      - COMPILER_API=http://compiler:8000/run
+    volumes:
+      - ./server:/app
+  
+  compiler:
+      build: ./compiler
+      ports:
+        - "8000:8000"
+
+  frontend:
+    build: ./client
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    env_file:
+      - ./client/.env
