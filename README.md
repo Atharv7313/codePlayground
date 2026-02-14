@@ -82,7 +82,7 @@ docker-compose up --build
 ## Project Structure
 
 ```
-CPlayground/
+codePlayground/
 ├── client/             # React frontend
 ├── server/             # Express backend API
 ├── compiler/           # Node.js compiler service
@@ -124,12 +124,5 @@ CPlayground/
 * Compiler API: `http://localhost:8000`
 * The app stores login session and filters in localStorage.
 * Filtering by difficulty/topic is live after search.
-
----
-
-## Author
-
-**Sakshi Sinha**
-GitHub: [@sakshisinha-13](https://github.com/sakshisinha-13)
 
 ---
