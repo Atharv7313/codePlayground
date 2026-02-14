@@ -15,8 +15,8 @@ A full-stack web application that allows users to practice and track Online Asse
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/sakshisinha-13/CPlayground.git
-cd CPlayground
+git clone https://github.com/Atharv7313/codePlayground.git
+cd CodePlayground
 ```
 
 ### 2. Setup Environment Variables
