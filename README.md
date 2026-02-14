@@ -1,4 +1,4 @@
-# CPlayground 
+# CodePlayground 
 
 A full-stack web application that allows users to practice and track Online Assesment and interview questions by company, topic, and difficulty level. It includes an integrated code compiler service.
 
